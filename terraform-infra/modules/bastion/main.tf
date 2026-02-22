@@ -1,7 +1,7 @@
 # Data source for latest Ubuntu 22.04 LTS AMI
 data "aws_ami" "ubuntu" {
   most_recent = true
-  owners      = ["210006515453"] # Canonical
+  owners      = ["099720109477"] # Canonical official
 
   filter {
     name   = "name"
